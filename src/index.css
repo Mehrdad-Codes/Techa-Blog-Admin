@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* * Vazir */
+@font-face {
+  font-family: "vazir";
+  font-style: normal;
+  font-weight: 100;
+  src: url(./assets/fonts/vazir/eot/Vazir-Thin.eot) format("eot"),
+    url(./assets/fonts/vazir/ttf/Vazir-Thin.ttf) format("ttf"),
+    url(./assets/fonts/vazir/woff/Vazir-Thin.woff) format("woff"),
+    url(./assets/fonts/vazir/woff2/Vazir-Thin.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "vazir";
+  font-style: normal;
+  font-weight: 300;
+  src: url(./assets/fonts/vazir/eot/Vazir-Light.eot) format("eot"),
+    url(./assets/fonts/vazir/ttf/Vazir-Light.ttf) format("ttf"),
+    url(./assets/fonts/vazir/woff/Vazir-Light.woff) format("woff"),
+    url(./assets/fonts/vazir/woff2/Vazir-Light.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "vazir";
+  font-style: normal;
+  font-weight: 400;
+  src: url(./assets/fonts/vazir/eot/Vazir-Regular.eot) format("eot"),
+    url(./assets/fonts/vazir/ttf/Vazir-Regular.ttf) format("ttf"),
+    url(./assets/fonts/vazir/woff/Vazir-Regular.woff) format("woff"),
+    url(./assets/fonts/vazir/woff2/Vazir-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "vazir";
+  font-style: normal;
+  font-weight: 500;
+  src: url(./assets/fonts/vazir/eot/Vazir-Medium.eot) format("eot"),
+    url(./assets/fonts/vazir/ttf/Vazir-Medium.ttf) format("ttf"),
+    url(./assets/fonts/vazir/woff/Vazir-Medium.woff) format("woff"),
+    url(./assets/fonts/vazir/woff2/Vazir-Medium.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "vazir";
+  font-style: normal;
+  font-weight: 700;
+  src: url(./assets/fonts/vazir/eot/Vazir-Bold.eot) format("eot"),
+    url(./assets/fonts/vazir/ttf/Vazir-Bold.ttf) format("ttf"),
+    url(./assets/fonts/vazir/woff/Vazir-Bold.woff) format("woff"),
+    url(./assets/fonts/vazir/woff2/Vazir-Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "vazir";
+  font-style: normal;
+  font-weight: 900;
+  src: url(./assets/fonts/vazir/eot/Vazir-Black.eot) format("eot"),
+    url(./assets/fonts/vazir/ttf/Vazir-Black.ttf) format("ttf"),
+    url(./assets/fonts/vazir/woff/Vazir-Black.woff) format("woff"),
+    url(./assets/fonts/vazir/woff2/Vazir-Black.woff2) format("woff2");
+}
+
+* {
+  font-family: "vazir" !important;
+}
