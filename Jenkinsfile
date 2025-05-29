@@ -13,10 +13,10 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://gitea.techa.me/techa-gitea-admin/Techa-Blog-Admin.git'
+              git branch: 'main',
+                  url: 'https://gitea.techa.me/techa-gitea-admin/Techa-Blog-Admin.git'
             }
         }
-
         stage('Install') {
             steps {
                 script {
