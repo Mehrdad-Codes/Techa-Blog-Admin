@@ -12,6 +12,7 @@ export default defineConfig({
     },
   },
   server: {
+    allowedHosts: ["blogadmin.techa.me"],
     host: true,
     port: 3012,
   },
