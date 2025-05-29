@@ -17,4 +17,4 @@ jobs:
           GITEA_REPO: Techa-Blog-Admin
         run: |
           curl -X POST -H "Authorization: token $GITEA_TOKEN" \
-            "$GITEA_URL/api/v1/repos/$GITEA_OWNER/$GITEA_REPO/mirror-sync"
+            "$GITEA_URL/api/v1/repos/techa-gitea-admin/Techa-Blog-Admin/mirror-sync"
